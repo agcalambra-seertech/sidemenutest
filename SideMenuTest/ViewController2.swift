@@ -9,7 +9,7 @@
 import UIKit
 import ENSwiftSideMenu
 
-class ViewController: UIViewController, ENSideMenuDelegate {
+class ViewController2: UIViewController, ENSideMenuDelegate {
     
     
     override func viewDidLoad() {
@@ -24,7 +24,6 @@ class ViewController: UIViewController, ENSideMenuDelegate {
     
     @IBAction func toggleSideMenu(sender: AnyObject) {
         toggleSideMenuView()
-        print("BERT")
     }
     
     // MARK: - ENSideMenu Delegate
